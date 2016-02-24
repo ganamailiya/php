@@ -13,7 +13,7 @@
     if ($name == "simon") {
         print "i know you";
     }
-    else {print "who are you";
+    else {print "who are you are you okay";
     }
     ?>
 </p>
