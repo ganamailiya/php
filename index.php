@@ -5,7 +5,15 @@
 <p>
     <?php
     echo "Hello World";
-    echo 5 * 7;
+    ?>
+</p>
+<p>
+    <?php
+    $myname = "Frodo Bagins";
+    $myage = 111;
+    $html = "My name is $myname";
+    echo "My name is" .$myname.  "and i am"  .$myage;
+    echo $html;
     ?>
 </p>
 </body>
