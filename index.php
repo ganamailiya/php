@@ -13,10 +13,10 @@
     if ($myage >= 21) {
         echo "buy sausage rolls, specs and mugs";
     }
-    elseif  ($myage >= 18) {
+    elseif  ($myage >= 16) {
         echo "buy mugs and specs";
     }
-    elseif ($myage >= 16) {
+    elseif ($myage >= 18) {
         echo "buy only specs";
     }
     else {echo "nothing";
