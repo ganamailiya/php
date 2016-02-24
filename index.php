@@ -9,7 +9,7 @@
 </p>
 <p>
     <?php
-    $myage = "28";
+    $myage = "6";
     if ($myage >= 21) {
         echo "buy sausage rolls, specs and mugs";
     }
@@ -19,7 +19,8 @@
     elseif ($myage >= 16) {
         echo "buy only specs";
     }
-    else {echo "nothing";}
+    else {echo "nothing";
+    }
     ?>
 </p>
 </body>
