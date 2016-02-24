@@ -9,12 +9,17 @@
 </p>
 <p>
     <?php
-    $name = "Edgar";
-    if ($name == "simon") {
-        print "i know you";
+    $myage = "28";
+    if ($myage >= 21) {
+        echo "buy sausage rolls, specs and mugs";
     }
-    else {print "who are you are you okay";
+    elseif  ($myage >= 18) {
+        echo "buy mugs and specs";
     }
+    elseif ($myage >= 16) {
+        echo "buy only specs";
+    }
+    else {echo "nothing";}
     ?>
 </p>
 </body>
