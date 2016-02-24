@@ -24,15 +24,15 @@
     ?>
     <p>
     <?php
-    $wantedgood = 2;
+    $wantedgood = "specs";
     switch ($wantedgood) {
-        case 1:
+        case "all":
            echo "if you're 21 you can buy sausage rolls, specs and mugs";
             break;
-        case 2:
+        case "mugsandspecs":
             echo "if you're 18 you can buy mugs and specs";
             break;
-        case 3:
+        case "specs":
             echo "if you're 16 you can buy only specs";
             break;
         default:
