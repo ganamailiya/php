@@ -11,7 +11,9 @@
 <p>
     <?php
 $provact = array("specs", "drugs", "rock and roll");
-    print_r($provact);
+    $provact[1]="hugs";
+    unset($provact[2]);
+    print_r($provact)
     ?>
 </p>
 </body>
