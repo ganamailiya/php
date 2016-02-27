@@ -10,21 +10,8 @@
 </p>
 <p>
     <?php
-    $wantedgoods = "mugs";
-    switch($wantedgoods) {
-        case "specs":
-            echo "should be 16";
-            break;
-        case "mugs":
-            echo "should be 18 or over";
-            break;
-        case "rolls":
-            echo "21 and over";
-            break;
-        default:
-            echo "rest baba";
-    }
-
+$provact = array("specs", "drugs", "rock and roll");
+    echo $provact[0] [1] [2]
     ?>
 </p>
 </body>
