@@ -10,20 +10,21 @@
 </p>
 <p>
     <?php
-    $numberofhobbits ="2";
-    switch($numberofhobbits) {
-        case 1:
-            echo "i sad hobbit";
+    $wantedgoods = "mugs";
+    switch($wantedgoods) {
+        case "specs":
+            echo "should be 16";
             break;
-        case 2:
-            echo "2 sad hobbits";
+        case "mugs":
+            echo "should be 18 or over";
             break;
-        case 3:
-            echo "all went home";
+        case "rolls":
+            echo "21 and over";
             break;
         default:
-            echo "baba rest";
+            echo "rest baba";
     }
+
     ?>
 </p>
 </body>
