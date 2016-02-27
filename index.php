@@ -10,13 +10,20 @@
 </p>
 <p>
     <?php
-    $age ="20";
-    if ($age >= 21){
-        print "you can buy everything";
+    $numberofhobbits ="2";
+    switch($numberofhobbits) {
+        case 1:
+            echo "i sad hobbit";
+            break;
+        case 2:
+            echo "2 sad hobbits";
+            break;
+        case 3:
+            echo "all went home";
+            break;
+        default:
+            echo "baba rest";
     }
-    elseif ($age >= 18) {print "you can buy mugs and specs";}
-    elseif ($age >= 16) {print "you can only buy specs";}
-    else {print "nothing";}
     ?>
 </p>
 </body>
