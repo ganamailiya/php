@@ -10,9 +10,11 @@
 </p>
 <p>
     <?php
-    $myname ="Frodo Baggins";
-    $myage= 111;
-    echo "My name is" . $myname . "and i am" . $myage;
+    $name ="Edgar";
+    if ($name == "simon"){
+        print "i know you";
+    }
+    else {print "who the fuck are you";}
     ?>
 </p>
 </body>
