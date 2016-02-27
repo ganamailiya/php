@@ -10,11 +10,13 @@
 </p>
 <p>
     <?php
-    $name ="Edgar";
-    if ($name == "simon"){
-        print "i know you";
+    $age ="20";
+    if ($age >= 21){
+        print "you can buy everything";
     }
-    else {print "who the fuck are you";}
+    elseif ($age >= 18) {print "you can buy mugs and specs";}
+    elseif ($age >= 16) {print "you can only buy specs";}
+    else {print "nothing";}
     ?>
 </p>
 </body>
