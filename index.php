@@ -4,8 +4,10 @@
 <body>
 <p>
     <?php
-    echo "Hello World";
-    echo 5 * 7;
+    for ($i = 1; $i < 10; $i++)
+    {
+        echo "<p>Hello!</p>";
+    }
     ?>
 </p>
 <p>
@@ -13,7 +15,9 @@
 $provact = array("specs", "drugs", "rock and roll");
     $provact[1]="hugs";
     unset($provact[2]);
-    print_r($provact)
+    foreach($provact as $x) {
+        print "<p>$x</p>";
+    }
     ?>
 </p>
 </body>
