@@ -14,7 +14,7 @@
     <?php
 $days = array("mon", "tues", "wed", "thurs", "fri", "sat", "sun");
     for($x = 0; $x <= count($days) - 1; $x++) {
-        echo $x;
+        echo $x, '<br>';
     }
     ?>
 </p>
