@@ -12,11 +12,9 @@
 </p>
 <p>
     <?php
-$provact = array("specs", "drugs", "rock and roll");
-    $provact[1]="hugs";
-    unset($provact[2]);
-    foreach($provact as $x) {
-        print "<p>$x</p>";
+$days = array("mon", "tues", "wed", "thurs", "fri", "sat", "sun");
+    for($x = 0; $x <= count($days) - 1; $x++) {
+        echo $x;
     }
     ?>
 </p>
