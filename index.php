@@ -13,8 +13,8 @@
 <p>
     <?php
 $days = array("mon", "tues", "wed", "thurs", "fri", "sat", "sun");
-    for($x = 0; $x <= count($days) - 2; $x=$x+2) {
-        echo $days[$x], '<br>';
+    for($x = 0; $x <= 10; $x=$x+2) {
+        echo "specs are avail on;" .  $days[$x], '<br>';
     }
     ?>
 </p>
