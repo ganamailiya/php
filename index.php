@@ -13,7 +13,7 @@
 <p>
     <?php
 $days = array("mon", "tues", "wed", "thurs", "fri", "sat", "sun");
-    for($x = 0; $x <= count($days) - 2; $x++) {
+    for($x = 0; $x <= count($days) - 2; $x=$x+2) {
         echo $days[$x], '<br>';
     }
     ?>
