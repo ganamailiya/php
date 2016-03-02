@@ -1,44 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head></head>
+<head>
+    <meta charset="utf-8">
+    <title>PHP Login Form without Session</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
 <body>
-<p>
-    <?php
-    echo "Hello World";
-    ?>
-</p>
-<p>
-    <?php
-    $myage = "20";
-    if ($myage >= 21) {
-        echo "buy sausage rolls, specs and mugs";
-    }
-    elseif  ($myage >= 18) {
-        echo "buy mugs and specs";
-    }
-    elseif ($myage >= 16) {
-        echo "buy only specs";
-    }
-    else {echo "nothing";
-    }
-    ?>
-    <p>
-    <?php
-    $wantedgood = "specs";
-    switch ($wantedgood) {
-        case "all":
-           echo "if you're 21 you can buy sausage rolls, specs and mugs";
-            break;
-        case "mugsandspecs":
-            echo "if you're 18 you can buy mugs and specs";
-            break;
-        case "specs":
-            echo "if you're 16 you can buy only specs";
-            break;
-        default:
-            echo "you can buy nothing";
-    }
-    ?>
-</p>
+<h1>PHP Login Form with Session</h1>
+<div class="loginBox">
+    <h3>Login Form</h3>
+    <br><br>
+    <form method="post" action="login.php">
+        <p><label>Username:</label><br></p>
+        <input type="text" name="username" placeholder="username" /><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="password" />  <br><br>
+        <input type="submit" name="submit" value = "login"/>
+    </form>
+    <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
+
+</div>
 </body>
 </html>
