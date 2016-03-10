@@ -4,9 +4,9 @@
 <body>
 <p>
     <?php
-$days = array("M", "Tu", "W", "Th", "F", "Sa", "Su");
-    for ($x = 0; $x = 6; $x=$x+4) {
-        echo "rolls only on " . $x, '<br>';
+$days = array("mon", "tues", "wed", "thurs", "fri", "sat", "sun");
+    for($x = 0; $x <= 6; $x=$x+3) {
+        echo "mugs are avail n " .  $days[$x], '<br>';
     }
     ?>
 </p>
