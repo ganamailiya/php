@@ -13,7 +13,7 @@
 			$password=$_POST['password'];
 
 
-			// To protect from MySQL injection
+			// To protect from MySQL injectio
 
 			$username = mysqli_real_escape_string($db, $username);
 			$password = mysqli_real_escape_string($db, $password);
