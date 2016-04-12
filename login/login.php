@@ -14,13 +14,13 @@
 		{
 			// Define $username and $password
 			$username=$_POST['username'];
+			$password=$_POST['password'];
 
 
 			// To protect from MySQL injection
 
 			//$username = mysqli_real_escape_string($db, $username);
 			//$password = mysqli_real_escape_string($db, $password);
-			$password=$_POST['password'];
 			//$password = md5($password);
 			$_SESSION['username'] = $username; // Initializing Session
 			
