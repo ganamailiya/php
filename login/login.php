@@ -15,8 +15,8 @@
 
 			// To protect from MySQL injectio
 
-			$username = mysqli_real_escape_string($db, $username);
-			$password = mysqli_real_escape_string($db, $password);
+			//$username = mysqli_real_escape_string($db, $username);
+			//$password = mysqli_real_escape_string($db, $password);
 			$password = md5($password);
 			$_SESSION['username'] = $username; // Initializing Session
 			
