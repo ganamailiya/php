@@ -20,9 +20,9 @@
 
 			//$username = mysqli_real_escape_string($db, $username);
 			//$password = mysqli_real_escape_string($db, $password);
-			//$password=$_POST['password'];
+			$password=$_POST['password'];
 			//$password = md5($password);
-			//$_SESSION['username'] = $username; // Initializing Session
+			$_SESSION['username'] = $username; // Initializing Session
 			
 			//Check username and password from database
 			$sql="SELECT * FROM users WHERE username ='$username' and password='$password'";
