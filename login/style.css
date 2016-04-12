@@ -115,3 +115,30 @@ body
 	font-size:20px;
 	color:#FFF;
 }
+
+
+
+#header {
+	background: transparent none repeat scroll 0 0;
+	height: 202px;
+}
+
+html {
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #f0efe2 url("background.png") repeat scroll 0 0;
+	color: #000;
+	font: 0.8em "trebuchet ms",arial,sans-serif;
+}
+
+#logo {
+	border-bottom: 2px solid #fff;
+	height: 148px;
+	position: relative;
+	width: 898px;
+}
