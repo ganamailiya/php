@@ -9,8 +9,8 @@
 	{
 
 			// Define $username and $password
-			$username=$_POST['username'];
-			$password=$_POST['password'];
+			$username=$_GET['username'];
+			$password=$_GET['password'];
 
 
 			// To protect from MySQL injectio
