@@ -5,12 +5,12 @@
 	include("connection.php"); //Establishing connection with our database
 	
 	$error = ""; //Variable for storing our errors.
-	if(isset($_POST["submit"]))
+	if(isset($_GET["submit"]))
 	{
 
 			// Define $username and $password
-			$username=$_POST['username'];
-			$password=$_POST['password'];
+			$username=$_GET['username'];
+			$password=$_GET['password'];
 
 
 			// To protect from MySQL injectio
