@@ -1,6 +1,6 @@
 <?php
 	session_start();
-    $username = $_POST["username"];
+    $username = $_GET["username"];
 
 	include("connection.php"); //Establishing connection with our database
 	
