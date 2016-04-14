@@ -1,6 +1,6 @@
 <?php
 	session_start();
-    $username = $_GET["username"];
+    $username = $_POST["username"];
 
 	include("connection.php"); //Establishing connection with our database
 	
@@ -9,8 +9,8 @@
 	{
 
 			// Define $username and $password
-			$username=$_GET['username'];
-			$password=$_GET['password'];
+			$username=$_POST['username'];
+			$password=$_POST['password'];
 
 
 			// To protect from MySQL injectio
